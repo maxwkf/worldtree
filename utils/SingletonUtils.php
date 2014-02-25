@@ -1,5 +1,5 @@
 <?php 
-class UtilsSingleton 
+class UtilsSingleton
 {
 	function getInstance($class)
 	// implements the 'singleton' design pattern.
