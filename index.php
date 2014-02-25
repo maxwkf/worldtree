@@ -10,7 +10,7 @@ RequireUtils::once(array(
 // here will call the corresponding controller and action
 $application = new Application();
 $application->run();
-
+  
 
 
 // $databaseUtils = new DatabaseUtils('localhost','root',);
