@@ -28,6 +28,6 @@ class SessionUtils {
 	}
 	
 	public function get($field) {
-		return $this->sessionUtils[$field];
+		return $_SESSION[self::$sessionUtils->namespace][$field];
 	}
 }
