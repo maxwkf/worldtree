@@ -2,15 +2,39 @@
 <title>World Tree</title>
 <style>
 div {
-	border: 1px solid grey;
-	padding: 10px;
-	margin: 10px;
+}
+#wrap {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+}
+#sidebar {
+	width: 230px;
+	background-color: #663300;
+	float: left;
+	height: 100%
+}
+#main {
+	padding-left: 30px;
+	margin-left: 230px;
+	border: 1px solid red;
+	height: 100%;
 }
 </style>
 <body>
-<div id='menu'>This part may be MENU</div>
+<div id='wrap'>
+
+<div id='sidebar'>
+This part may be MENU<br/>
+This part may be MENU<br/>
+This part may be MENU<br/>
+</div>
 <div id='main'>
 <?php $this->renderContent(); ?>
+</div>
+
 </div>
 </body>
 </html>

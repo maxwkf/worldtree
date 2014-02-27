@@ -1,8 +1,8 @@
 <?php
 class BaseController {
-	private $_get;
-	private $_post;
-	private $_request;
+	protected $_get;
+	protected $_post;
+	protected $_request;
 	
 	
 	/**
@@ -21,7 +21,10 @@ class BaseController {
 		
 		$this->_view = $view;
 		$this->_data = new data();
+		
+		$this->init();
 	}
+	
 	public function getGet() {
 		return $this->_get;
 	}
