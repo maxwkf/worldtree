@@ -3,7 +3,7 @@ class BaseController {
 	protected $_get;
 	protected $_post;
 	protected $_request;
-	
+	/** testing **/
 	
 	/**
 	 * @desc this view only contain the view path
